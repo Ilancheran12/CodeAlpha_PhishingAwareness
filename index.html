@@ -1,0 +1,446 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Phishing Awareness | Cyber Security</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0b1220;
+    color: white;
+    line-height: 1.7;
+}
+
+header {
+    background: #111d33;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 2px solid #00d4ff;
+}
+
+header h1 {
+    color: #00d4ff;
+    font-size: 30px;
+}
+
+nav {
+    padding: 15px;
+    text-align: center;
+    background: #17243b;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+nav a:hover {
+    color: #00d4ff;
+}
+
+.hero {
+    text-align: center;
+    padding: 65px 20px;
+    background: linear-gradient(135deg, #10233e, #123b54);
+}
+
+.hero h2 {
+    font-size: 34px;
+    color: #00d4ff;
+}
+
+.hero p {
+    margin: 15px;
+}
+
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #17243b;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #00d4ff;
+    margin-bottom: 15px;
+}
+
+.card {
+    background: #22334d;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.warning {
+    color: #ff6868;
+    font-weight: bold;
+}
+
+.safe {
+    color: #50e3a4;
+    font-weight: bold;
+}
+
+button {
+    background: #00a9cc;
+    color: #061321;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #00d4ff;
+}
+
+.option {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: #22334d;
+    color: white;
+    border: 1px solid #49617e;
+}
+
+.option:hover {
+    background: #31516d;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+footer {
+    background: #111d33;
+    padding: 25px;
+    text-align: center;
+    color: #a9b8ca;
+}
+
+@media(max-width:600px) {
+    .hero h2 {
+        font-size: 25px;
+    }
+
+    section {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🛡 Cyber Security Awareness</h1>
+    <p>Phishing Awareness Training Program</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#types">Types</a>
+    <a href="#examples">Examples</a>
+    <a href="#safety">Safety</a>
+    <a href="#quiz">Quiz</a>
+</nav>
+
+<div class="hero">
+    <h2>STOP PHISHING ATTACKS</h2>
+    <p>Think Before You Click. Stay Safe Online.</p>
+    <a href="#about">
+        <button>Start Learning</button>
+    </a>
+</div>
+
+<section id="about">
+    <h2>What is Phishing?</h2>
+
+    <p>
+        Phishing is a cyber attack where attackers
+        use fake emails, messages and websites
+        to steal sensitive information such as
+        passwords, bank details and personal data.
+    </p>
+
+    <div class="card">
+        <p class="warning">⚠ Never trust unknown links!</p>
+        <p>Always verify the sender before sharing information.</p>
+    </div>
+</section>
+
+<section id="types">
+    <h2>Types of Phishing Attacks</h2>
+
+    <div class="card">
+        <h3>Email Phishing</h3>
+        <p>Fake emails designed to steal personal information.</p>
+    </div>
+
+    <div class="card">
+        <h3>Smishing</h3>
+        <p>Phishing attacks through SMS messages.</p>
+    </div>
+
+    <div class="card">
+        <h3>Vishing</h3>
+        <p>Fraudulent phone calls used to steal information.</p>
+    </div>
+
+    <div class="card">
+        <h3>Spear Phishing</h3>
+        <p>Targeted phishing attacks against specific individuals.</p>
+    </div>
+</section>
+
+<section id="examples">
+    <h2>Phishing Email Examples</h2>
+
+    <div class="card">
+        <h3 class="warning">Example 1: Fake Bank Alert</h3>
+        <p>Subject: Your bank account will be blocked!</p>
+        <p>Message: Verify your details immediately.</p>
+        <p class="warning">Warning: Urgent threats are a common phishing tactic.</p>
+    </div>
+
+    <div class="card">
+        <h3 class="warning">Example 2: Fake Prize Message</h3>
+        <p>Subject: Congratulations! You won a prize.</p>
+        <p>Message: Provide your personal details to claim it.</p>
+        <p class="warning">Warning: Unexpected prizes may be scams.</p>
+    </div>
+
+    <div class="card">
+        <h3 class="warning">Example 3: Fake Password Reset</h3>
+        <p>Subject: Your password has expired.</p>
+        <p>Message: Click an unknown link to reset your password.</p>
+        <p class="warning">Warning: Check the website address independently.</p>
+    </div>
+</section>
+
+<section id="safety">
+    <h2>How to Stay Safe Online</h2>
+
+    <div class="card">
+        <p class="safe">✓ Use strong passwords.</p>
+        <p class="safe">✓ Enable two-factor authentication.</p>
+        <p class="safe">✓ Verify email addresses.</p>
+        <p class="safe">✓ Avoid suspicious links.</p>
+        <p class="safe">✓ Never share OTP or passwords.</p>
+        <p class="safe">✓ Keep software updated.</p>
+    </div>
+</section>
+
+<section id="quiz">
+    <h2>Phishing Awareness Quiz</h2>
+
+    <p id="question">Loading question...</p>
+
+    <div id="options"></div>
+
+    <p id="result"></p>
+
+    <button id="nextBtn" onclick="nextQuestion()" hidden>
+        Next Question
+    </button>
+
+    <button id="restartBtn" onclick="restartQuiz()" hidden>
+        Restart Quiz
+    </button>
+</section>
+
+<footer>
+    <p>CodeAlpha Cyber Security Internship Project</p>
+    <p>Phishing Awareness Training | 2026</p>
+    <p>Stay Alert. Stay Secure.</p>
+</footer>
+
+<script>
+
+const questions = [
+{
+    question: "1. What is phishing?",
+    options: [
+        "A computer game",
+        "An attack to steal personal information",
+        "A programming language"
+    ],
+    answer: 1
+},
+{
+    question: "2. What should you do with a suspicious email?",
+    options: [
+        "Click the link",
+        "Share your password",
+        "Verify the sender"
+    ],
+    answer: 2
+},
+{
+    question: "3. What is Smishing?",
+    options: [
+        "Phishing through SMS",
+        "Phishing through games",
+        "Computer maintenance"
+    ],
+    answer: 0
+},
+{
+    question: "4. Should you share your OTP?",
+    options: [
+        "Yes, with everyone",
+        "No, never share it",
+        "Only on unknown websites"
+    ],
+    answer: 1
+},
+{
+    question: "5. What is a good way to protect accounts?",
+    options: [
+        "Use weak passwords",
+        "Disable security",
+        "Enable two-factor authentication"
+    ],
+    answer: 2
+}
+];
+
+let currentQuestion = 0;
+let score = 0;
+let answered = false;
+
+function loadQuestion() {
+
+    answered = false;
+
+    const q = questions[currentQuestion];
+
+    document.getElementById("question").innerText = q.question;
+
+    const optionsDiv = document.getElementById("options");
+
+    optionsDiv.innerHTML = "";
+
+    document.getElementById("result").innerText = "";
+
+    document.getElementById("nextBtn").hidden = true;
+
+    q.options.forEach((option, index) => {
+
+        const btn = document.createElement("button");
+
+        btn.innerText = option;
+
+        btn.className = "option";
+
+        btn.onclick = () => checkAnswer(index);
+
+        optionsDiv.appendChild(btn);
+
+    });
+}
+
+function checkAnswer(selected) {
+
+    if (answered) return;
+
+    answered = true;
+
+    const correct = questions[currentQuestion].answer;
+
+    if (selected === correct) {
+
+        score++;
+
+        document.getElementById("result").innerText =
+            "Correct Answer! Well Done!";
+
+        document.getElementById("result").style.color = "#50e3a4";
+
+    } else {
+
+        document.getElementById("result").innerText =
+            "Incorrect! Try to learn the correct answer.";
+
+        document.getElementById("result").style.color = "#ff6868";
+    }
+
+    document.querySelectorAll(".option").forEach(btn => {
+        btn.disabled = true;
+    });
+
+    document.getElementById("nextBtn").hidden = false;
+}
+
+function nextQuestion() {
+
+    currentQuestion++;
+
+    if (currentQuestion < questions.length) {
+
+        loadQuestion();
+
+    } else {
+
+        showResult();
+
+    }
+}
+
+function showResult() {
+
+    document.getElementById("question").innerText =
+        "Quiz Completed!";
+
+    document.getElementById("options").innerHTML = "";
+
+    document.getElementById("result").innerText =
+        "Your Score: " + score + " / " + questions.length;
+
+    document.getElementById("result").style.color = "#50e3a4";
+
+    document.getElementById("nextBtn").hidden = true;
+
+    document.getElementById("restartBtn").hidden = false;
+}
+
+function restartQuiz() {
+
+    currentQuestion = 0;
+
+    score = 0;
+
+    document.getElementById("restartBtn").hidden = true;
+
+    loadQuestion();
+}
+
+loadQuestion();
+
+</script>
+
+</body>
+</html>
